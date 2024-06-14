@@ -9,17 +9,26 @@ API Endpoints
 Contacts
 
 GET /api/contacts: Retrieve all contacts.
+
 POST /api/contacts: Create a new contact.
+
 GET /api/contacts/:id
 : Retrieve a single contact by ID.
+
 PUT /api/contacts/:id
 : Update a contact by ID.
+
 DELETE /api/contacts/:id
 : Delete a contact by ID.
+
+
+
 Users
 
 POST /api/users/register: Register a new user.
+
 POST /api/users/login: Login a user.
+
 Configuration
 The application uses environment variables for configuration. The following variables are available:
 
